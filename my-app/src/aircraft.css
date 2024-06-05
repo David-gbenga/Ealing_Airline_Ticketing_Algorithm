@@ -1,0 +1,71 @@
+/* styles.css */
+.row {
+    display: flex;
+    justify-content: center; /* Center the seats within the row */
+    margin-bottom: 10px; /* Space between rows */
+  }
+  
+  .seat {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    margin: 5px; /* Space between seats */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc; /* Border for each seat */
+    border-radius: 5px; /* Rounded corners for seats */
+    background-color: #f0f0f0; /* Background color for seats */
+    font-size: 14px; /* Font size for seat labels */
+  }
+
+  .seat:hover {
+
+      background-color: rgb(106, 169, 247);
+  }
+
+.aisle{
+margin-left: 4rem;
+
+
+}
+
+.selected {
+    background-color: rgb(106, 169, 247)
+
+
+}
+.btn-container{
+    width: 100%;
+}
+  h1{
+      width: 100%;
+      text-align: center;
+  }
+ 
+
+  button{
+      background-color: rgb(89, 125, 72);
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 2rem;
+      width: 50%;
+
+  }
+
+  button:hover{
+    background-color: rgb(172, 236, 142);
+    color :black;
+    cursor: pointer;
+  }
+
+  .blocked {
+      background-color: black;
+      color: white;
+      
+  }
+  .blocked:hover{
+    background-color: black;
+    color: white;
+    cursor: not-allowed;
+  }
