@@ -8,7 +8,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./airline-booking-app
+    working-directory: ./my-app
 
 jobs:
   build:
